@@ -27,7 +27,7 @@ const Page7 = () => {
 
             <div className="flex gap-4">
                 <img className="h-10 w-10" src={peoplepage7} alt="people image" />
-                <p className="text-[20px]">10,000 wise customers join dialy every month10,000 wise customers join dialy every month</p>
+                <p className="text-[20px]">1,00,000 wise customers join dialy every month10,000 wise customers join dialy every month</p>
             </div>
         </div>
 
