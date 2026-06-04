@@ -5,7 +5,7 @@ import Arrivalbox from "../Buttons/Arrivalbox.jsx";
 
 const Box= () => {
 return (
-    <div>
+    <div className="bg-amber-50 rounded-4xl pt-6 pl-2 pb-2">
 
 <Buttons/>
         <br/>

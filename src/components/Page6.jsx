@@ -19,14 +19,14 @@ const Page6 = () => {
           </div>
 
 
-        <div className=" flex-1/2 flex-row ">
+        <div className="  flex mt-[5vw] ">
 
-            <div>
+            <div className="w-[60vw] space-y-[4vw]">
 
-           <div className=" flex gap-4">
-               <img className="rounded-full h-7 w-8" src={page6startinghomelogo} alt="home logo"/>
-               <pre>Winner of best cross-Border FIN 2026 Winner of best cross-Border FIN 2026</pre>
-           </div>
+                 <div className=" flex gap-4">
+                    <img className="rounded-full h-7 w-8" src={page6startinghomelogo} alt="home logo"/>
+                    <pre>Winner of best cross-Border FIN 2026 Winner of best cross-Border FIN 2026</pre>
+                </div>
 
                 <div className=" flex gap-4">
                     <img className="rounded-full h-7 w-8" src={page6startinghomelogo} alt="home logo"/>
@@ -41,11 +41,9 @@ const Page6 = () => {
             </div>
 
                 <div>
-                   <img className="  " src={page1} alt="page1pic"/>
+                   <img className=" flex-2/5 " src={page1} alt="page1pic"/>
                 </div>
         </div>
-
-
 
 
         </div>
