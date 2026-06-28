@@ -4,7 +4,7 @@ import homescreenpage1continutionimg from "../assets/homescreenpage1continutioni
 const Home = () => {
     return (
 
-        <div className="text-black min-h-screen bg-gradient-to-r from-[#0491E9] to-[#436C86] ">
+        <div className="text-black min-h-screen bg-gradient-to-r from-[#0491E9] to-[#436C86] h-[175vh]">
             <h1>  </h1>
 <Navbar />
 

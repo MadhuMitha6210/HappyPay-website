@@ -9,37 +9,38 @@ const Pagetwo = () =>{
             <br/><br/>
 
             <div className="flex bg-[#F9FFF6]">
-                <div className="w-4/7">
-                    <div className="text-black :text font-extrabold text-5xl ">
-                        <h1> Make your transfer count </h1>
+                <div className="w-6/11 space-y-20 text-left ml-[40px] ">
+                    <div className="space-y-[13px] ">
+                        <div className=" text-black :text font-extrabold text-5xl space-y-[13px]">
+                            <h1> Make your transfer count </h1>
+                        </div>
+
+                        <div className="space-y-[13px]">
+                        <h4><p className=" text-2xl "> Save up to 45% when you send money globally. Lightning-fast.
+                            Completely transparent.</p></h4>
+
+                        <hr className="border-gray-400 opacity-30"/>
+
+                        <h3><p className=" text-2xl">Pay international education costs</p></h3>
+
+                        <h6 className="text-2xl"> Open doors for your loved ones' future.</h6> <br/>
+                        <hr className="border-gray-400 opacity-30"/>
+
+                        <h3 className=" text-2xl">Make travelling simple</h3>
+
+                        <h6 className="text-2xl"> Sort vacation and travel expenses</h6><br/>
+                        <hr className="border-gray-400 opacity-30"/>
+
+                        <h3 className=" text-2xl">Give a helping hand when it's needed</h3>
+
+                        <h6 className="  text-2xl"> Support with medical bills</h6>
                     </div>
-
-                    <br/>
-                    <br/>
-
-
-                    <h4><p>Save up to 45% when you send money globally. Lightning-fast. Completely transparent.</p></h4>
-                    <br/>
-                    <div className="border-t-2 border-dashed border-b-gray-600 "></div><br/>
-
-
-                    <h3><p>Pay international education costs</p></h3>
-                    <br/>
-                    <h6 className="">  Open doors for your loved ones' future.</h6> <br/>
-                    <div className="border-t-2 border-dashed border-b-gray-600 "></div> <br/>
-
-                    <h3>Make travelling simple</h3>
-                    <br/>
-                    <h6 className=""> Sort vacation and travel expenses</h6><br/>
-                    <div className="border-t-2 border-dashed border-b-gray-600 "></div> <br/>
-                    <h3>Give a helping hand when it's needed</h3>
-                    <br/>
-                    <h6 className=""> Give a helping hand when it's needed</h6>
-                    <br/>
-                    <button className=" bg-lime-300 ; rounded-2xl ; text-black;"> <pre>  Learn about sending money  </pre></button>
+                    </div>
+                    <div>
+                    <button className=" bg-lime-400 ; rounded-3xl ; text-black text-2xl h-[50px]"> <pre>  Learn about sending money  </pre></button>
                 </div>
-
-                <div className="w-3/7 flex justify-center "><img src={page2} alt="imageofpage2"/> </div>
+                </div>
+                <div className="w-5/11 flex justify-center "><img src={page2} alt="imageofpage2"/> </div>
 
             </div>
         </div>

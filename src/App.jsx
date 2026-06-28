@@ -18,10 +18,10 @@ function App() {
 
           <Home/>
           <div className="space-y-30">
-          <Page1/>
-          <Pagetwo/>
-          <Page3/>
           <Page6/>
+          <Page1/>
+          <Page3/>
+          <Pagetwo/>
           <Page7/>
           </div>
 
